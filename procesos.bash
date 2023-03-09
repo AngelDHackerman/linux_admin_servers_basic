@@ -32,3 +32,14 @@ top -o %CPU
 # listar los procesos que mas estan usando ram: 
 
 top -o %MEM
+
+# ? htop
+
+htop + F3 # usando F3 dentro del comando htop, nos busca el comando que deseemos
+
+htop + F5 # nos ordena los procesos por la lista de arbol 
+
+htop + F8 # Sube el nicenest del proceso (baja la prioriedad del proceso)
+
+sudo htop + F7 # Abaja el nicenest del proceso (sube la prioriedad del proceso) 
+
